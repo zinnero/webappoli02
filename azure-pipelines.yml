@@ -46,3 +46,4 @@ steps:
     appName: 'webapp-ozr'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
     deploymentMethod: 'auto'
+
