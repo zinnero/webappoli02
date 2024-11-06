@@ -6,6 +6,7 @@
 trigger:
 - main
 
+
 pool:
   vmImage: 'windows-latest'
 
@@ -45,3 +46,4 @@ steps:
     appName: 'webapp-ozr'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
     deploymentMethod: 'auto'
+
